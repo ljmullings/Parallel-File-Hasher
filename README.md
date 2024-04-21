@@ -2,7 +2,7 @@
 
 This program performs a hash calculation on a file using multiple threads. It is designed to efficiently process large files by dividing the work among several threads that compute hashes concurrently. The results from each thread are combined to produce a final hash value for the entire file. The hashing algorithm used is the Jenkins "one-at-a-time" hash.
 
-Features
+*Features*
 Efficient processing of large files using multi-threading.
 Utilizes the Jenkins one-at-a-time hashing algorithm.
 Measures and outputs the time taken to compute the hash.
