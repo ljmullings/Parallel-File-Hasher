@@ -41,6 +41,6 @@ To run the program, use the following syntax:
 - Threads are created in a binary tree structure, where each thread can spawn two child threads to further parallelize the work.
 - The hash values computed by child threads are combined with the parent thread's hash value to produce a final result.
 
-##Limitations
+## Limitations
 - The program is designed for POSIX-compliant systems and might not run as expected on non-POSIX systems.
 - The maximum number of threads that can effectively be used depends on the size of the file and the system capabilities.
